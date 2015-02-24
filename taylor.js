@@ -12,16 +12,12 @@ function TaylorHit(name, views, video) {
     this.video = video;
 }
 
-function intoList(song) {
-    return " " + song.name + " " + song.views + " " + song.video + " ";
-  }
-
-var oneSong = document.createElement("li");                 // Create a <li> node
-var textnode = document.createTextNode(intoList());         // Create a text node
-
-
 function loadData(songs) {
+  var htmlString = "";
+  var oneSong = document.createElement("li");                 // Create a <li> node
+  var textnode = document.createTextNode(htmlString);         // Create a text node
   for (i = 0; i < Songs.length; i++) {
+    htmlString = " " + TaylorHit.name + " " + TaylorHit.views + " " + TaylorHit.video + " "
     oneSong.appendChild(textnode);                              // Append the text to <li>
     document.getElementById("unsorted").appendChild(oneSong); 
   }
