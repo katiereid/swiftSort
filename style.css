@@ -1,0 +1,56 @@
+header {
+  margin-right: auto;
+  margin-left: auto;
+  width: 900px;
+
+}
+
+main {
+  margin-right: auto;
+  margin-left: auto;
+  width: 900px;
+
+}
+
+h1 {
+  font-family: Lemonade;
+  font-size: 56px;
+  color: #990000;
+  text-align: center;
+}
+
+h2 {
+  font-family: Lemonade;
+  font-size: 38px;
+  text-align: center;
+}
+
+p {
+  font-family: Lemonade;
+  font-size: 28px;
+  text-align: center;
+}
+
+#olivia {
+  float: right;
+}
+
+#meredith {
+  float: left;
+}
+ #taylorbanner {
+  margin-right: auto;
+  margin-left: auto;
+  width: 900px;
+}
+
+.btn {
+  width: 220px;
+  height: 60px;
+  font-size: 36px;
+  font-family: Lemonade;
+  color: white;
+  background-color: red;
+  display: inline;
+  margin-left: 140px;
+}
